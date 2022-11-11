@@ -10,7 +10,7 @@ var _VuiBox = _interopRequireDefault(require("../../../../components/VuiBox"));
 var _VuiTypography = _interopRequireDefault(require("../../../../components/VuiTypography"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const gif = "./images/1ac6b1a64ab7fc6f25ec33a6ed472faa.png";
+const gif = "/images/1ac6b1a64ab7fc6f25ec33a6ed472faa.png";
 const WelcomeMark = () => {
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_material.Card, {
     sx: () => ({

@@ -32,8 +32,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 */
 // @mui components
 // Vision UI Dashboard assets
-const balance = "./images/3ee8132f11fba853d6e7c1f3e8829fd8.png";
-const Graph = "./images/ea06bfa42254f88cb65cfb5b644f5858.svg";
+const balance = "/images/3ee8132f11fba853d6e7c1f3e8829fd8.png";
+const Graph = "/images/ea06bfa42254f88cb65cfb5b644f5858.svg";
 const CreditBalance = () => {
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_material.Card, {
     sx: {

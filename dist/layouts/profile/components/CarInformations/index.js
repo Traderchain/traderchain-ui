@@ -32,9 +32,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-const GreenLightning = "./images/a2ba788808772f31a3d8ef895f6ba6cf.svg";
-const WhiteLightning = "./images/3f0ffb2f7d7f10a2bad2b387fd91c3cb.svg";
-const carProfile = "./images/1d7e1fbbdff516d910fe646808198fcd.svg";
+const GreenLightning = "/images/a2ba788808772f31a3d8ef895f6ba6cf.svg";
+const WhiteLightning = "/images/3f0ffb2f7d7f10a2bad2b387fd91c3cb.svg";
+const carProfile = "/images/1d7e1fbbdff516d910fe646808198fcd.svg";
 const CarInformations = () => {
   const {
     gradients,

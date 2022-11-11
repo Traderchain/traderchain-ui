@@ -8,7 +8,7 @@ exports.cardContent = cardContent;
 exports.cardIcon = cardIcon;
 exports.cardIconBox = void 0;
 // Images
-const backgroundImage = "./images/ffb1c0d9ed3afbc743865c0fd2e39c81.png";
+const backgroundImage = "/images/ffb1c0d9ed3afbc743865c0fd2e39c81.png";
 function card(theme, ownerState) {
   const {
     borders,

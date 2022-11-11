@@ -37,7 +37,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 */
 // @mui material components
 // Images
-const burceMars = "./images/9f28a78c5fbd42bebc284b4eb11d4f34.png"; // Vision UI Dashboard React base styles
+const burceMars = "/images/9f28a78c5fbd42bebc284b4eb11d4f34.png"; // Vision UI Dashboard React base styles
 function Header() {
   const [tabsOrientation, setTabsOrientation] = (0, _react.useState)("horizontal");
   const [tabValue, setTabValue] = (0, _react.useState)(0);

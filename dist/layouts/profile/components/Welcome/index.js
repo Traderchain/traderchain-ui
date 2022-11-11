@@ -27,7 +27,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-const welcome = "./images/36420a04b041827ae5473cd0cb61c776.png";
+const welcome = "/images/36420a04b041827ae5473cd0cb61c776.png";
 const Welcome = () => {
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_material.Card, {
     sx: _ref => {

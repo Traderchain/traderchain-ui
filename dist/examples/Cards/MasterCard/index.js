@@ -30,7 +30,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 */
 // prop-types is a library for typechecking of props
 // @mui material components
-const billingCard = "./images/e36a389ca48316ab995456878ac14762.png"; // Vision UI Dashboard React components
+const billingCard = "/images/e36a389ca48316ab995456878ac14762.png"; // Vision UI Dashboard React components
 function MasterCard(_ref) {
   let {
     number,

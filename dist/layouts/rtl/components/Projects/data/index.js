@@ -20,14 +20,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // @mui material components
 // Vision UI Dashboard React components
 // Images
-const logoSlack = "./images/6f4a4127752dd745368d0f8476787a38.svg";
-const logoSpotify = "./images/adcb47e6563de438a1f0db22e8de71aa.svg";
-const logoJira = "./images/0547f456e09e69472bdeac283d731c8d.svg";
-const logoInvesion = "./images/261b7e78256fe80c9d13033d4e9061dc.svg";
-const avatar1 = "./images/2df96e6c11f00cecbeaa96f1730fcfdd.png";
-const avatar2 = "./images/7c99b2ffd2fb9b1787722b71928d208e.png";
-const avatar3 = "./images/b0383ef7aa99a9f55a72687177c7a4f9.png";
-const avatar4 = "./images/04572a1908e3180f7c31ad012b754f93.png";
+const logoSlack = "/images/6f4a4127752dd745368d0f8476787a38.svg";
+const logoSpotify = "/images/adcb47e6563de438a1f0db22e8de71aa.svg";
+const logoJira = "/images/0547f456e09e69472bdeac283d731c8d.svg";
+const logoInvesion = "/images/261b7e78256fe80c9d13033d4e9061dc.svg";
+const avatar1 = "/images/2df96e6c11f00cecbeaa96f1730fcfdd.png";
+const avatar2 = "/images/7c99b2ffd2fb9b1787722b71928d208e.png";
+const avatar3 = "/images/b0383ef7aa99a9f55a72687177c7a4f9.png";
+const avatar4 = "/images/04572a1908e3180f7c31ad012b754f93.png";
 function data() {
   const avatars = members => members.map(_ref => {
     let [image, name] = _ref;

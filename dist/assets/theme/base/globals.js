@@ -24,7 +24,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 */
 // Vision UI Dashboard React Base Styles
-const bgAdmin = "./images/95577b81051e9fc359b80ecb8cf2bb7b.png";
+const bgAdmin = "/images/95577b81051e9fc359b80ecb8cf2bb7b.png";
 const {
   info,
   dark

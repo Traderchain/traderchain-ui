@@ -30,12 +30,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 /* eslint-disable react/prop-types */
 // Vision UI Dashboard React components
 // Images
-const avatar1 = "./images/2df96e6c11f00cecbeaa96f1730fcfdd.png";
-const avatar2 = "./images/7c99b2ffd2fb9b1787722b71928d208e.png";
-const avatar3 = "./images/b0383ef7aa99a9f55a72687177c7a4f9.png";
-const avatar4 = "./images/04572a1908e3180f7c31ad012b754f93.png";
-const avatar5 = "./images/b057d91c971bb558c8df69060f29715f.png";
-const avatar6 = "./images/635d14bb945011f2af29476fa906b27a.png";
+const avatar1 = "/images/2df96e6c11f00cecbeaa96f1730fcfdd.png";
+const avatar2 = "/images/7c99b2ffd2fb9b1787722b71928d208e.png";
+const avatar3 = "/images/b0383ef7aa99a9f55a72687177c7a4f9.png";
+const avatar4 = "/images/04572a1908e3180f7c31ad012b754f93.png";
+const avatar5 = "/images/b057d91c971bb558c8df69060f29715f.png";
+const avatar6 = "/images/635d14bb945011f2af29476fa906b27a.png";
 function Author(_ref) {
   let {
     image,

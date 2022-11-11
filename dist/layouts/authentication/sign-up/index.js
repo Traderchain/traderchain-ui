@@ -47,7 +47,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // Vision UI Dashboard assets
 // Authentication layout components
 // Images
-const bgSignIn = "./images/6d50779bbec017db9f86fcc841e55a44.png";
+const bgSignIn = "/images/6d50779bbec017db9f86fcc841e55a44.png";
 function SignIn() {
   const [rememberMe, setRememberMe] = (0, _react.useState)(true);
   const handleSetRememberMe = () => setRememberMe(!rememberMe);

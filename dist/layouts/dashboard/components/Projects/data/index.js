@@ -20,10 +20,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // @mui material components
 // Vision UI Dashboard React components
 // Images
-const avatar1 = "./images/2df96e6c11f00cecbeaa96f1730fcfdd.png";
-const avatar2 = "./images/7c99b2ffd2fb9b1787722b71928d208e.png";
-const avatar3 = "./images/b0383ef7aa99a9f55a72687177c7a4f9.png";
-const avatar4 = "./images/04572a1908e3180f7c31ad012b754f93.png";
+const avatar1 = "/images/2df96e6c11f00cecbeaa96f1730fcfdd.png";
+const avatar2 = "/images/7c99b2ffd2fb9b1787722b71928d208e.png";
+const avatar3 = "/images/b0383ef7aa99a9f55a72687177c7a4f9.png";
+const avatar4 = "/images/04572a1908e3180f7c31ad012b754f93.png";
 function data() {
   const avatars = members => members.map(_ref => {
     let [image, name] = _ref;

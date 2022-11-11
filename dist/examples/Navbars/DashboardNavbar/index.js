@@ -46,8 +46,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // Custom styles for DashboardNavbar
 // Vision UI Dashboard React context
 // Images
-const team2 = "./images/70936f91bb217e34750dda5f07e2339b.jpg";
-const logoSpotify = "./images/adcb47e6563de438a1f0db22e8de71aa.svg";
+const team2 = "/images/70936f91bb217e34750dda5f07e2339b.jpg";
+const logoSpotify = "/images/adcb47e6563de438a1f0db22e8de71aa.svg";
 function DashboardNavbar(_ref) {
   let {
     absolute,

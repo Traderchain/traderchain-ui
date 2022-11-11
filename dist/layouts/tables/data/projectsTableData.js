@@ -37,12 +37,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // @mui material components
 // Vision UI Dashboard React components
 // Images
-const logoSpotify = "./images/adcb47e6563de438a1f0db22e8de71aa.svg";
-const logoInvesion = "./images/261b7e78256fe80c9d13033d4e9061dc.svg";
-const logoJira = "./images/0547f456e09e69472bdeac283d731c8d.svg";
-const logoSlack = "./images/6f4a4127752dd745368d0f8476787a38.svg";
-const logoWebDev = "./images/5482c86708318ecd5116b04f1b2d021e.svg";
-const logoXD = "./images/b3d2fa3dd9a48fde2eb0fee66df03526.svg";
+const logoSpotify = "/images/adcb47e6563de438a1f0db22e8de71aa.svg";
+const logoInvesion = "/images/261b7e78256fe80c9d13033d4e9061dc.svg";
+const logoJira = "/images/0547f456e09e69472bdeac283d731c8d.svg";
+const logoSlack = "/images/6f4a4127752dd745368d0f8476787a38.svg";
+const logoWebDev = "/images/5482c86708318ecd5116b04f1b2d021e.svg";
+const logoXD = "/images/b3d2fa3dd9a48fde2eb0fee66df03526.svg";
 function Completion(_ref) {
   let {
     value,

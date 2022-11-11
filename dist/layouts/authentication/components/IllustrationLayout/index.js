@@ -37,7 +37,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // Vision UI Dashboard React page layout routes
 // Images
 // import pattern from "assets/images/shapes/pattern-lines.svg";
-const pattern = "./images/08e22690544bfea7e8c10c7d7c3b3e92.svg";
+const pattern = "/images/08e22690544bfea7e8c10c7d7c3b3e92.svg";
 function IllustrationLayout(_ref) {
   let {
     color,

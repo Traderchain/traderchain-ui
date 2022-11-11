@@ -40,13 +40,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 */
 // @mui material components
 // @mui icons
-const team1 = "./images/2df96e6c11f00cecbeaa96f1730fcfdd.png";
-const team2 = "./images/7c99b2ffd2fb9b1787722b71928d208e.png";
-const team3 = "./images/b0383ef7aa99a9f55a72687177c7a4f9.png";
-const team4 = "./images/04572a1908e3180f7c31ad012b754f93.png"; // Images
-const profile1 = "./images/7876973b4899a1e2ff8f7343e8c031f9.png";
-const profile2 = "./images/8e16ceb4d2ac0530f011df14dd730eae.png";
-const profile3 = "./images/88b26a1d00a7c62fffb02cebdbad8532.png"; // Vision UI Dashboard React components
+const team1 = "/images/2df96e6c11f00cecbeaa96f1730fcfdd.png";
+const team2 = "/images/7c99b2ffd2fb9b1787722b71928d208e.png";
+const team3 = "/images/b0383ef7aa99a9f55a72687177c7a4f9.png";
+const team4 = "/images/04572a1908e3180f7c31ad012b754f93.png"; // Images
+const profile1 = "/images/7876973b4899a1e2ff8f7343e8c031f9.png";
+const profile2 = "/images/8e16ceb4d2ac0530f011df14dd730eae.png";
+const profile3 = "/images/88b26a1d00a7c62fffb02cebdbad8532.png"; // Vision UI Dashboard React components
 function Overview() {
   return /*#__PURE__*/(0, _jsxRuntime.jsxs)(_DashboardLayout.default, {
     children: [/*#__PURE__*/(0, _jsxRuntime.jsx)(_Header.default, {}), /*#__PURE__*/(0, _jsxRuntime.jsx)(_VuiBox.default, {
