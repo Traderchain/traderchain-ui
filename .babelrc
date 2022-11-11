@@ -1,0 +1,28 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "useBuiltIns": false,
+      "targets": "> 0.5%"
+    }],
+    ["@babel/preset-react", {
+      "runtime": "automatic"
+    }]
+  ],
+  "plugins": [    
+    "@babel/plugin-proposal-export-default-from",
+    ["module-resolver", {
+      "root": ["./src"]
+    }],
+    ["file-loader", {
+      "name": "[hash].[ext]",
+      "extensions": ["png", "jpg", "jpeg", "gif", "svg"],
+      "publicPath": "./images",
+      "outputPath": "./public/images",
+      "context": "",
+      "limit": 0
+    }],
+    ["transform-import-css", {
+      "generateScopedName": "[name]__[local]___[hash:base64:5]"
+    }]
+  ]
+}

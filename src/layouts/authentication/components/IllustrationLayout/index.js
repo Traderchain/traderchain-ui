@@ -34,7 +34,8 @@ import PageLayout from "examples/LayoutContainers/PageLayout";
 import pageRoutes from "page.routes";
 
 // Images
-import pattern from "assets/images/shapes/pattern-lines.svg";
+// import pattern from "assets/images/shapes/pattern-lines.svg";
+import pattern from "assets/images/shapes/waves-white.svg";
 
 function IllustrationLayout({ color, header, title, description, illustration, children }) {
   return (
