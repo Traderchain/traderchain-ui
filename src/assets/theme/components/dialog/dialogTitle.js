@@ -18,17 +18,21 @@
 
 // Vision UI Dashboard React base styles
 import typography from "assets/theme/base/typography";
+import colors from "assets/theme/base/colors";
 
 // Vision UI Dashboard React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
-const { size } = typography;
+const { size, color, fontWeightLight, fontWeightRegular, fontWeightMedium, fontWeightBold } = typography;
+const { white, text, info, secondary } = colors;
 
 export default {
   styleOverrides: {
     root: {
-      padding: pxToRem(16),
-      fontSize: size.xl,
+      padding: "15px 20px",
+      fontSize: size.regular,
+      fontWeight: fontWeightBold,
+      color: white.main,
     },
   },
 };

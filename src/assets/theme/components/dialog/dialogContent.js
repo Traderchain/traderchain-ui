@@ -31,9 +31,10 @@ const { borderWidth, borderColor } = borders;
 export default {
   styleOverrides: {
     root: {
-      padding: pxToRem(16),
+      padding: "15px 20px",
       fontSize: size.md,
       color: text.main,
+      minWidth: "300px",
     },
 
     dividers: {

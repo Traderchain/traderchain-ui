@@ -25,6 +25,8 @@ const { xxl } = boxShadows;
 
 export default {
   styleOverrides: {
+    backgroundColor: "black",
+    
     paper: {
       borderRadius: borderRadius.lg,
       boxShadow: xxl,

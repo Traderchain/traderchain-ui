@@ -23,14 +23,14 @@ import colors from "assets/theme/base/colors";
 // Vision UI Dashboard React helper functions
 // import pxToRem from "assets/theme/functions/pxToRem";
 
-const { size } = typography;
-const { text } = colors;
+const { size, color, fontWeightLight, fontWeightRegular, fontWeightMedium, fontWeightBold } = typography;
+const { white, text, info, secondary } = colors;
 
 export default {
   styleOverrides: {
     root: {
-      fontSize: size.md,
-      color: text.main,
+      fontSize: size.regular,
+      color: white.main,
     },
   },
 };

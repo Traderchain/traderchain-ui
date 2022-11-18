@@ -79,10 +79,15 @@ import buttonBase from "assets/theme/components/buttonBase";
 import icon from "assets/theme/components/icon";
 import svgIcon from "assets/theme/components/svgIcon";
 import link from "assets/theme/components/link";
+import dialog from "assets/theme/components/dialog";
+import dialogTitle from "assets/theme/components/dialog/dialogTitle";
+import dialogContent from "assets/theme/components/dialog/dialogContent";
+import dialogContentText from "assets/theme/components/dialog/dialogContentText";
+import dialogActions from "assets/theme/components/dialog/dialogActions";
 
 export default createTheme({
-  breakpoints: { ...breakpoints },
-  palette: { ...colors },
+  breakpoints: { ...breakpoints },  
+  palette: { mode: 'dark', ...colors },
   typography: { ...typography },
   boxShadows: { ...boxShadows },
   borders: { ...borders },
@@ -146,5 +151,10 @@ export default createTheme({
     MuiIcon: { ...icon },
     MuiSvgIcon: { ...svgIcon },
     MuiLink: { ...link },
+    MuiDialog: { ...dialog },
+    MuiDialogTitle: { ...dialogTitle },
+    MuiDialogContent: { ...dialogContent },
+    MuiDialogContentText: { ...dialogContentText },
+    MuiDialogActions: { ...dialogActions },
   },
 });
