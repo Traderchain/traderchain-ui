@@ -31,16 +31,24 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // import pxToRem from "assets/theme/functions/pxToRem";
 
 const {
-  size
+  size,
+  color,
+  fontWeightLight,
+  fontWeightRegular,
+  fontWeightMedium,
+  fontWeightBold
 } = _typography.default;
 const {
-  text
+  white,
+  text,
+  info,
+  secondary
 } = _colors.default;
 var _default = {
   styleOverrides: {
     root: {
-      fontSize: size.md,
-      color: text.main
+      fontSize: size.regular,
+      color: white.main
     }
   }
 };

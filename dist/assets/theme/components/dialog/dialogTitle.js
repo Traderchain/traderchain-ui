@@ -5,6 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _typography = _interopRequireDefault(require("../../base/typography"));
+var _colors = _interopRequireDefault(require("../../base/colors"));
 var _pxToRem = _interopRequireDefault(require("../../functions/pxToRem"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 /*!
@@ -30,13 +31,26 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // Vision UI Dashboard React helper functions
 
 const {
-  size
+  size,
+  color,
+  fontWeightLight,
+  fontWeightRegular,
+  fontWeightMedium,
+  fontWeightBold
 } = _typography.default;
+const {
+  white,
+  text,
+  info,
+  secondary
+} = _colors.default;
 var _default = {
   styleOverrides: {
     root: {
-      padding: (0, _pxToRem.default)(16),
-      fontSize: size.xl
+      padding: "15px 20px",
+      fontSize: size.regular,
+      fontWeight: fontWeightBold,
+      color: white.main
     }
   }
 };

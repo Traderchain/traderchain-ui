@@ -35,6 +35,7 @@ const {
 } = _boxShadows.default;
 var _default = {
   styleOverrides: {
+    backgroundColor: "black",
     paper: {
       borderRadius: borderRadius.lg,
       boxShadow: xxl

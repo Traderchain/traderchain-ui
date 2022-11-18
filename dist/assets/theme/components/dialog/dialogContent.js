@@ -44,9 +44,10 @@ const {
 var _default = {
   styleOverrides: {
     root: {
-      padding: (0, _pxToRem.default)(16),
+      padding: "15px 20px",
       fontSize: size.md,
-      color: text.main
+      color: text.main,
+      minWidth: "300px"
     },
     dividers: {
       borderTop: `${borderWidth[1]} solid ${borderColor}`,

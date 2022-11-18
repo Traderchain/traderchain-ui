@@ -60,6 +60,11 @@ var _buttonBase = _interopRequireDefault(require("./components/buttonBase"));
 var _icon = _interopRequireDefault(require("./components/icon"));
 var _svgIcon = _interopRequireDefault(require("./components/svgIcon"));
 var _link = _interopRequireDefault(require("./components/link"));
+var _dialog = _interopRequireDefault(require("./components/dialog"));
+var _dialogTitle = _interopRequireDefault(require("./components/dialog/dialogTitle"));
+var _dialogContent = _interopRequireDefault(require("./components/dialog/dialogContent"));
+var _dialogContentText = _interopRequireDefault(require("./components/dialog/dialogContentText"));
+var _dialogActions = _interopRequireDefault(require("./components/dialog/dialogActions"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 /*!
 
@@ -86,7 +91,9 @@ var _default = (0, _styles.createTheme)({
   breakpoints: {
     ..._breakpoints.default
   },
+  // palette: { ...colors },
   palette: {
+    mode: 'dark',
     ..._colors.default
   },
   typography: {
@@ -244,6 +251,21 @@ var _default = (0, _styles.createTheme)({
     },
     MuiLink: {
       ..._link.default
+    },
+    MuiDialog: {
+      ..._dialog.default
+    },
+    MuiDialogTitle: {
+      ..._dialogTitle.default
+    },
+    MuiDialogContent: {
+      ..._dialogContent.default
+    },
+    MuiDialogContentText: {
+      ..._dialogContentText.default
+    },
+    MuiDialogActions: {
+      ..._dialogActions.default
     }
   }
 });
