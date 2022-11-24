@@ -91,7 +91,6 @@ var _default = (0, _styles.createTheme)({
   breakpoints: {
     ..._breakpoints.default
   },
-  // palette: { ...colors },
   palette: {
     mode: 'dark',
     ..._colors.default
