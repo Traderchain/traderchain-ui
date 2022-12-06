@@ -44,14 +44,17 @@ var _default = {
       padding: `${(0, _pxToRem.default)(8)} ${(0, _pxToRem.default)(28)} ${(0, _pxToRem.default)(8)} ${(0, _pxToRem.default)(12)} !important`,
       border: `${borderWidth[1]} solid ${inputColors.borderColor.main}`,
       borderRadius: `${borderRadius.md} !important`,
+      backgroundColor: `#0f1535!important`,
+      color: "#ffffff!important",
       "& fieldset": {
         border: "none"
       }
     },
     input: {
-      height: (0, _pxToRem.default)(22),
-      width: "max-content !important"
+      height: (0, _pxToRem.default)(22)
+      // width: "max-content !important",      
     },
+
     inputSizeSmall: {
       height: (0, _pxToRem.default)(14)
     }
