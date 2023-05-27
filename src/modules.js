@@ -13,3 +13,5 @@ export VuiPagination from 'components/VuiPagination';
 export VuiProgress from 'components/VuiProgress';
 export VuiSwitch from 'components/VuiSwitch';
 export VuiTypography from 'components/VuiTypography';
+
+export Configurator from "examples/Configurator";
